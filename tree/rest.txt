@@ -1,0 +1,10 @@
+https://sampleproject.by/v1/trees/{tree}/
+
+https://sampleproject.by/v1/prices/{price}/
+https://sampleproject.by/v1/cities/{city}/
+https://sampleproject.by/v1/heights/{height}/
+
+
+
+
+
