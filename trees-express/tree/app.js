@@ -6,8 +6,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
-var users = require('./routes/users');
-//var trees = require('./routes/trees');
+//var users = require('./routes/users');
+var trees = require('./routes/trees');
 //var cities = require('./routes/cities');
 //var heights = require('./routes/height');
 
@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/users', users);
+app.use('/trees', trees);
 //app.use('/trees', trees);
 //app.use('/cities', cities);
 //app.use('/heights', heights);
